@@ -1,7 +1,7 @@
 import jwt_decode from "jwt-decode";
 import axios from 'axios';
 
-const baseURL = 'http://127.0.0.1:8000';
+const baseURL = 'https://cricstars.xyz';
 
 const updateAdminToken = async () => {
     const refreshToken = localStorage.getItem("refresh");
