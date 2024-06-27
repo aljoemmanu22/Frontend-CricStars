@@ -43,7 +43,7 @@ function LiveScore({ setSelectedSection, matchId, setLiveMatchData }) {
       });
 
   
-    const ws = new WebSocket(`ws://127.0.0.1:8000/ws/livematch/${matchId}/`);
+    const ws = new WebSocket(`ws://cricstars.xyz/ws/livematch/${matchId}/`);
     setWebSocket(ws);
   
     ws.onerror = (error) => {
