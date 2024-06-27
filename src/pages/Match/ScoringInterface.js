@@ -34,7 +34,7 @@ function ScoringInterface() {
   const [innings, setInnings] = useState(1);
   const [previousScoreUpdates, setPreviousScoreUpdates] = useState([]); // State to keep track of the previous score updates for each over
   const token = localStorage.getItem('access');
-  const baseURL = 'http://127.0.0.1:8000';
+  const baseURL = 'https://cricstars.xyz';
 
   const [isWidePopupVisible, setIsWidePopupVisible] = useState(false);
   const [isNoBallPopupVisible, setIsNoBallPopupVisible] = useState(false);

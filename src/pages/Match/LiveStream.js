@@ -10,7 +10,7 @@ const LiveStream = ({ channelName, isStreaming, onStreamingEnd }) => {
   const [localVideoTrack, setLocalVideoTrack] = useState(null);
   const [isStreamStarted, setIsStreamStarted] = useState(false);
   const videoRef = useRef();
-  const baseURL = 'http://127.0.0.1:8000';
+  const baseURL = 'https://cricstars.xyz';
 
   useEffect(() => {
     if (isStreaming && !isStreamStarted) {

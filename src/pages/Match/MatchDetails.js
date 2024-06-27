@@ -14,7 +14,7 @@ function MatchDetails() {
   const [selectedSection, setSelectedSection] = useState('');
   const { matchId } = useParams();
   const token = localStorage.getItem('access');
-  const baseURL = 'http://127.0.0.1:8000';
+  const baseURL = 'https://cricstars.xyz';
   const [matchData, setMatchData] = useState(null);
   const [batsfirst, setBatsFirst] = useState('')
   const [liveMatchData, setLiveMatchData] = useState(null); // New state for live match data

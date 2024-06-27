@@ -6,7 +6,7 @@ function MVP({ matchId }) {
   const [players, setPlayers] = useState([]);
   const [rank, setRank] = useState(1); // State to track player rank
 
-  const baseURL = 'http://127.0.0.1:8000';
+  const baseURL = 'https://cricstars.xyz';
   const token = localStorage.getItem('access');
 
   useEffect(() => {

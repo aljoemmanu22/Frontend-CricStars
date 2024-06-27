@@ -19,7 +19,7 @@ function UserLogin() {
   const [phoneError, setPhoneError] = useState('')
   const [nameError, setNameError] = useState('')
   const [otpError, setOtpError] = useState('')
-  const baseURL='http://127.0.0.1:8000'
+  const baseURL = 'https://cricstars.xyz';
 
   const navigate = useNavigate();
   const dispatch = useDispatch();

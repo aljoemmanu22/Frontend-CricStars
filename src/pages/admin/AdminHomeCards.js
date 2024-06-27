@@ -3,7 +3,7 @@ import axios from 'axios'
 import ublock from '../../images/userblock.png'
 
 function AdminHomeCards() {
-    const baseURL = "http://127.0.0.1:8000";
+    const baseURL = 'https://cricstars.xyz';
     const [data,setData]=useState(null)
   
   

@@ -5,7 +5,7 @@ import axios from 'axios'
 function PastMatches() {
 
   const navigate = useNavigate()
-  const baseURL = 'http://127.0.0.1:8000'
+  const baseURL = 'https://cricstars.xyz';
   const token = localStorage.getItem('access');
   const [PastMatchess, setPastMatchess] = useState([])
 

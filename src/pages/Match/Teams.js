@@ -9,7 +9,7 @@ function Teams({ matchId }) {
   const [homeTeam, setHomeTeam] = useState('')
   const [awayTeam, setAwayTeam] = useState('')
 
-  const baseURL = 'http://127.0.0.1:8000';
+  const baseURL = 'https://cricstars.xyz';
   const token = localStorage.getItem('access');
 
   useEffect(() => {
