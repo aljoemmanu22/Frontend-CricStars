@@ -156,8 +156,8 @@ function MatchDetails() {
 
           <div className='w-2/5 m-1 h-11/12 rounded-md'>
             <div className='bg-white rounded-md p-2'>
-              <p className='pl-3'>Player of the Match</p>
-              <p className='pl-3'>Salvin(Team Byjus)</p>
+              <p className='pl-3'>Practice Makes Perfect</p>
+              <p className='pl-3'>You are the tommarow's stars</p>
             </div>
             <div className='bg-white rounded-md mt-4'>
               <div className='border-b p-2'>
