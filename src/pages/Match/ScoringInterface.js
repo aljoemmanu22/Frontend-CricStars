@@ -1171,11 +1171,12 @@ const handleStopStream = async () => {
               ))}
             </div>
             <div className="flex flex-col w-1/4">
-              {['out', 'lb'].map(event => (
-                <div key={event} className="flex w-full items-center justify-center border" onClick={() => handleScoreUpdate(event)}>
+              {['out', 'lb'].map((event, index) => (
+                <div key={event} className={`flex w-full items-center justify-center border ${index === 0 ? 'h-1/2' : 'h-1/2'}`} onClick={() => handleScoreUpdate(event)}>
                   <p className="text-white p-3">{event.toUpperCase()}</p>
                 </div>
               ))}
+              <div className="flex w-full items-center justify-center border h-0"></div> {/* Empty cell to occupy the remaining space */}
             </div>
             {/* <div className="flex flex-col w-1/4">
               {['undo', 'out', 'lb'].map(event => (
