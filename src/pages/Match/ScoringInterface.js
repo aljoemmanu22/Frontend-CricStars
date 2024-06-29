@@ -1045,7 +1045,7 @@ function ScoringInterface() {
 
 const handleStartStream = async () => {
   try {
-    await axios.get(`http://127.0.0.1:8000/api/start-stream/${matchId}/`);
+    await axios.get(`https://cricstars.xyz/api/start-stream/${matchId}/`);
     setIsStreaming(true);
   } catch (error) {
     console.error('Failed to start streaming', error);
@@ -1054,7 +1054,7 @@ const handleStartStream = async () => {
 
 const handleStopStream = async () => {
   try {
-    await axios.get(`http://127.0.0.1:8000/api/stop-stream/${matchId}/`);
+    await axios.get(`https://cricstars.xyz/api/stop-stream/${matchId}/`);
     setIsStreaming(false);
   } catch (error) {
     console.error('Failed to stop streaming', error);
