@@ -421,7 +421,7 @@ function UserProfile() {
   const dispatch = useDispatch();
   const authentication_user = useSelector(state => state.authentication_user)
 
-  const baseURL='http://127.0.0.1:8000'
+  const baseURL = 'https://cricstars.xyz';
   const token = localStorage.getItem('access');
   const fetchUserData = async () => {
     try {
